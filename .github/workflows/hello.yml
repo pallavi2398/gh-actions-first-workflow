@@ -7,11 +7,10 @@ on:
     branches: [main]
 
   #These are jobs inside the workflow
-  jobs:
+jobs:
   
-    #this is the name of the job
+  #this is the name of the job
     greet:
-    
       #this is github runner
       runs-on: Ubuntu-latest
       steps:
